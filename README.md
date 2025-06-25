@@ -177,7 +177,3 @@ For any questions, feedback, or collaboration opportunities:
 - **Email:** hello@NexaSphere.com
 - **Phone:** +91 0123456789
 - **Author:** Ramandeep Singh
-
----
-
-> _This project was developed as a demonstration of front-end engineering skills for a company job assignment. All code, design, and documentation are original and crafted to professional standards._ 
