@@ -41,12 +41,20 @@ This project was developed as part of a company job assignment to showcase exper
 ---
 
 ## Live Demo
-> _A live demo can be provided upon request or deployed to platforms like Vercel, Netlify, or GitHub Pages._
+
+[View the Live Demo on Vercel](https://nexa-sphere.vercel.app/)
 
 ---
 
 ## Screenshots
-> _Include screenshots or GIFs of the landing page on desktop and mobile for visual reference._
+
+![NexaSphere Landing Page – Desktop Screenshot](screenshots/desktop.png)
+
+> _Desktop view of the NexaSphere landing page, showcasing the hero section, navigation, and animated stats._
+
+![NexaSphere Landing Page – Mobile Screenshot](screenshots/mobile.png)
+
+> _Mobile view of the NexaSphere landing page, demonstrating responsive design and mobile navigation._
 
 ---
 
