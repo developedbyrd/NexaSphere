@@ -48,11 +48,11 @@ This project was developed as part of a company job assignment to showcase exper
 
 ## Screenshots
 
-![NexaSphere Landing Page – Desktop Screenshot](screenshots/desktop.png)
+![NexaSphere Landing Page – Desktop Screenshot](assets/desktop.png)
 
 > _Desktop view of the NexaSphere landing page, showcasing the hero section, navigation, and animated stats._
 
-![NexaSphere Landing Page – Mobile Screenshot](screenshots/mobile.png)
+![NexaSphere Landing Page – Mobile Screenshot](assets/mobile.png)
 
 > _Mobile view of the NexaSphere landing page, demonstrating responsive design and mobile navigation._
 
