@@ -1,0 +1,1346 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NexaSphere</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <header class="nav" id="nav" role="navigation" aria-label="Main navigation">
+      <div class="nav__container">
+        <div class="nav__inner">
+          <div class="nav__logo" aria-label="NexaSphere logo">
+            <h1>NexaSphere</h1>
+          </div>
+          <nav class="nav__desktop" aria-label="Desktop navigation">
+            <a href="#home" class="nav__item" data-scroll-to="#home">Home</a>
+            <a href="#about" class="nav__item" data-scroll-to="#about">About</a>
+            <a href="#services" class="nav__item" data-scroll-to="#services"
+              >Services</a
+            >
+            <a href="#contact" class="nav__item" data-scroll-to="#contact"
+              >Contact</a
+            >
+          </nav>
+          <a href="#contact" class="nav__button" data-scroll-to="#contact"
+            >Get Started</a>
+          <button
+            class="nav__mobile-toggle"
+            aria-label="Toggle mobile menu"
+            aria-expanded="false"
+            data-toggle="mobile-nav"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <div
+          class="nav__mobile"
+          id="mobile-nav"
+          role="navigation"
+          aria-label="Mobile navigation"
+        >
+          <div class="nav__mobile-items">
+            <a href="#home" class="nav__mobile-item" data-scroll-to="#home"
+              >Home</a
+            >
+            <a href="#about" class="nav__mobile-item" data-scroll-to="#about"
+              >About</a
+            >
+            <a
+              href="#services"
+              class="nav__mobile-item"
+              data-scroll-to="#services"
+              >Services</a
+            >
+            <a
+              href="#contact"
+              class="nav__mobile-item"
+              data-scroll-to="#contact"
+              >Contact</a
+            >
+            <a
+              href="#contact"
+              class="nav__mobile-button"
+              data-scroll-to="#contact"
+              >Get Started</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero__bg"></div>
+        <div class="hero__blob hero__blob--left"></div>
+        <div class="hero__blob hero__blob--right"></div>
+        <div class="hero__container">
+          <div class="hero__grid">
+            <div class="hero__content animate-fade-in">
+              <h1 class="hero__title" id="hero-title">
+                Transform Your
+                <span>Business Today</span>
+              </h1>
+              <p class="hero__description">
+                We deliver cutting-edge solutions that drive growth, increase
+                efficiency, and help your business stay ahead of the competition
+                in today's digital landscape.
+              </p>
+              <div class="hero__buttons">
+                <button class="hero__button--primary" data-scroll-to="#contact">
+                  Get Started Now
+                  <i class="fas fa-arrow-right"></i>
+                </button>
+                <button
+                  class="hero__button--secondary"
+                  data-scroll-to="#services"
+                >
+                  <i class="fas fa-play"></i>
+                  Learn More
+                </button>
+              </div>
+            </div>
+            <div
+              class="hero__image-container animate-fade-in"
+              style="animation-delay: 300ms"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop"
+                alt="Professional working on laptop"
+                class="hero__image"
+              />
+              <div class="hero__image-overlay"></div>
+              <div
+                class="hero__floating-card hero__floating-card--top animate-bounce"
+              >
+                <div class="hero__floating-card-number">99%</div>
+                <div class="hero__floating-card-label">Success Rate</div>
+              </div>
+              <div
+                class="hero__floating-card hero__floating-card--bottom animate-bounce"
+              >
+                <div class="hero__floating-card-number">24/7</div>
+                <div class="hero__floating-card-label">Support</div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="hero__stats animate-fade-in"
+            style="animation-delay: 500ms"
+          >
+            <div class="hero__stat">
+              <div class="hero__stat-number">500+</div>
+              <div class="hero__stat-label">Happy Clients</div>
+            </div>
+            <div class="hero__stat">
+              <div class="hero__stat-number">1000+</div>
+              <div class="hero__stat-label">Projects Completed</div>
+            </div>
+            <div class="hero__stat">
+              <div class="hero__stat-number">50+</div>
+              <div class="hero__stat-label">Team Members</div>
+            </div>
+            <div class="hero__stat">
+              <div class="hero__stat-number">5+</div>
+              <div class="hero__stat-label">Years Experience</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about" aria-labelledby="about-title">
+        <div class="about__container">
+          <div class="about__grid">
+            <div class="about__content animate-fade-in">
+              <h2 class="about__title" id="about-title">About Our Company</h2>
+              <p class="about__description">
+                We are a forward-thinking company dedicated to helping
+                businesses thrive in the digital age. Our team of experts
+                combines creativity with technical expertise to deliver
+                solutions that drive real results.
+              </p>
+              <div class="about__features">
+                <div class="about__feature">
+                  <i class="fas fa-check-circle about__feature-icon"></i>
+                  <span>10+ years of industry experience</span>
+                </div>
+                <div class="about__feature">
+                  <i class="fas fa-check-circle about__feature-icon"></i>
+                  <span>Certified professionals and experts</span>
+                </div>
+                <div class="about__feature">
+                  <i class="fas fa-check-circle about__feature-icon"></i>
+                  <span>24/7 dedicated customer support</span>
+                </div>
+                <div class="about__feature">
+                  <i class="fas fa-check-circle about__feature-icon"></i>
+                  <span>Proven track record of success</span>
+                </div>
+              </div>
+              <div class="about__stats">
+                <div class="about__stat about__stat--blue">
+                  <div class="about__stat-number about__stat-number--blue">
+                    500+
+                  </div>
+                  <div class="about__stat-label">Projects Delivered</div>
+                </div>
+                <div class="about__stat about__stat--purple">
+                  <div class="about__stat-number about__stat-number--purple">
+                    98%
+                  </div>
+                  <div class="about__stat-label">Client Satisfaction</div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="about__image-container animate-fade-in"
+              style="animation-delay: 300ms"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop"
+                alt="Team collaboration"
+                class="about__image"
+              />
+              <div class="about__image-overlay"></div>
+            </div>
+          </div>
+          <div class="about__values">
+            <h3 class="about__values-title">Our Core Values</h3>
+            <div class="about__values-grid">
+              <div class="about__value-card animate-fade-in">
+                <div class="about__value-icon">
+                  <i class="fas fa-users text-blue-600"></i>
+                </div>
+                <h4 class="about__value-title">Team Collaboration</h4>
+                <p class="about__value-description">
+                  We believe in the power of teamwork and collaboration to
+                  achieve extraordinary results.
+                </p>
+              </div>
+              <div
+                class="about__value-card animate-fade-in"
+                style="animation-delay: 200ms"
+              >
+                <div class="about__value-icon">
+                  <i class="fas fa-bullseye text-purple-600"></i>
+                </div>
+                <h4 class="about__value-title">Goal-Oriented</h4>
+                <p class="about__value-description">
+                  Every project is approached with clear objectives and
+                  measurable outcomes in mind.
+                </p>
+              </div>
+              <div
+                class="about__value-card animate-fade-in"
+                style="animation-delay: 400ms"
+              >
+                <div class="about__value-icon">
+                  <i class="fas fa-award text-green-600"></i>
+                </div>
+                <h4 class="about__value-title">Excellence</h4>
+                <p class="about__value-description">
+                  We strive for excellence in everything we do, delivering
+                  quality that exceeds expectations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="services" aria-labelledby="services-title">
+        <div class="services__container">
+          <div class="services__header animate-fade-in">
+            <h2 class="services__title" id="services-title">Our Services</h2>
+            <p class="services__subtitle">
+              We offer comprehensive solutions to help your business succeed in
+              the digital world. From web development to digital marketing,
+              we've got you covered.
+            </p>
+          </div>
+          <div class="services__grid">
+            <div class="service__card service__card--web animate-fade-in">
+              <div class="service__icon-container">
+                <i class="fas fa-code service-icon text-blue-600"></i>
+              </div>
+              <h3 class="service__title">Web Development</h3>
+              <p class="service__description">
+                Custom web applications built with modern technologies and best
+                practices for optimal performance.
+              </p>
+              <ul class="service__features">
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>React & TypeScript
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>Responsive Design
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>SEO Optimized
+                </li>
+              </ul>
+              <button class="service__button" data-scroll-to="#contact">
+                Learn More
+              </button>
+            </div>
+            <div
+              class="service__card service__card--uiux animate-fade-in"
+              style="animation-delay: 100ms"
+            >
+              <div class="service__icon-container">
+                <i class="fas fa-palette service-icon text-purple-600"></i>
+              </div>
+              <h3 class="service__title">UI/UX Design</h3>
+              <p class="service__description">
+                Beautiful, intuitive designs that enhance user experience and
+                drive engagement.
+              </p>
+              <ul class="service__features">
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>User Research
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>Wireframing
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>Prototyping
+                </li>
+              </ul>
+              <button class="service__button" data-scroll-to="#contact">
+                Learn More
+              </button>
+            </div>
+            <div
+              class="service__card service__card--marketing animate-fade-in"
+              style="animation-delay: 200ms"
+            >
+              <div class="service__icon-container">
+                <i class="fas fa-chart-bar service-icon text-green-600"></i>
+              </div>
+              <h3 class="service__title">Digital Marketing</h3>
+              <p class="service__description">
+                Data-driven marketing strategies to grow your online presence
+                and reach your target audience.
+              </p>
+              <ul class="service__features">
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>SEO/SEM
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>Social Media
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>Analytics
+                </li>
+              </ul>
+              <button class="service__button" data-scroll-to="#contact">
+                Learn More
+              </button>
+            </div>
+            <div
+              class="service__card service__card--cybersecurity animate-fade-in"
+              style="animation-delay: 300ms"
+            >
+              <div class="service__icon-container">
+                <i class="fas fa-shield-alt service-icon text-red-600"></i>
+              </div>
+              <h3 class="service__title">Cybersecurity</h3>
+              <p class="service__description">
+                Comprehensive security solutions to protect your business from
+                digital threats.
+              </p>
+              <ul class="service__features">
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>Security Audits
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>Threat Detection
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>Compliance
+                </li>
+              </ul>
+              <button class="service__button" data-scroll-to="#contact">
+                Learn More
+              </button>
+            </div>
+            <div
+              class="service__card service__card--mobile animate-fade-in"
+              style="animation-delay: 400ms"
+            >
+              <div class="service__icon-container">
+                <i class="fas fa-mobile-alt service-icon text-indigo-600"></i>
+              </div>
+              <h3 class="service__title">Mobile Apps</h3>
+              <p class="service__description">
+                Native and cross-platform mobile applications for iOS and
+                Android devices.
+              </p>
+              <ul class="service__features">
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>Native Development
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>Cross-Platform
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>App Store
+                  Optimization
+                </li>
+              </ul>
+              <button class="service__button" data-scroll-to="#contact">
+                Learn More
+              </button>
+            </div>
+            <div
+              class="service__card service__card--cloud animate-fade-in"
+              style="animation-delay: 500ms"
+            >
+              <div class="service__icon-container">
+                <i class="fas fa-globe service-icon text-cyan-600"></i>
+              </div>
+              <h3 class="service__title">Cloud Solutions</h3>
+              <p class="service__description">
+                Scalable cloud infrastructure and services to support your
+                business growth.
+              </p>
+              <ul class="service__features">
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>AWS/Azure
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>DevOps
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>Scalability
+                </li>
+              </ul>
+              <button class="service__button" data-scroll-to="#contact">
+                Learn More
+              </button>
+            </div>
+          </div>
+          <div
+            class="services__cta animate-fade-in"
+            style="animation-delay: 500ms"
+          >
+            <div class="services__cta-card">
+              <h3 class="services__cta-title">Ready to Get Started?</h3>
+              <p class="services__cta-description">
+                Let's discuss how we can help transform your business with our
+                expert services.
+              </p>
+              <button class="services__cta-button" data-scroll-to="#contact">
+                Contact Us Today
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact__container">
+          <div class="contact__header animate-fade-in">
+            <h2 class="contact__title" id="contact-title">Get In Touch</h2>
+            <p class="contact__subtitle">
+              Ready to take your business to the next level? Contact us today
+              for a free consultation and let's discuss how we can help you
+              achieve your goals.
+            </p>
+          </div>
+          <div class="contact__grid">
+            <div class="contact__info animate-fade-in">
+              <h3 class="contact__info-title">Let's Start a Conversation</h3>
+              <p class="contact__info-description">
+                We're here to help and answer any question you might have. We
+                look forward to hearing from you.
+              </p>
+              <div class="contact__methods">
+                <div class="contact__method">
+                  <div class="contact__icon-container">
+                    <i class="fas fa-envelope contact__icon"></i>
+                  </div>
+                  <div class="contact__method-details">
+                    <h4 class="contact__method-title">Email</h4>
+                    <a
+                      href="mailto:hello@NexaSphere.com"
+                      class="contact__method-link"
+                      >hello@NexaSphere.com</a
+                    >
+                  </div>
+                </div>
+                <div class="contact__method">
+                  <div class="contact__icon-container">
+                    <i class="fas fa-phone contact__icon"></i>
+                  </div>
+                  <div class="contact__method-details">
+                    <h4 class="contact__method-title">Phone</h4>
+                    <a href="tel:+910123456789" class="contact__method-link"
+                      >+91 0123456789</a
+                    >
+                  </div>
+                </div>
+                <div class="contact__method">
+                  <div class="contact__icon-container">
+                    <i class="fas fa-map-marker-alt contact__icon"></i>
+                  </div>
+                  <div class="contact__method-details">
+                    <h4 class="contact__method-title">Address</h4>
+                    <a href="#" class="contact__method-link"
+                      >123 Business St, Suite 100, City, State 12345</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="contact__business-hours">
+                <h4 class="contact__business-hours-title">Business Hours</h4>
+                <div class="contact__business-hours-list">
+                  <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                  <p>Saturday: 10:00 AM - 4:00 PM</p>
+                  <p>Sunday: Closed</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="contact__form animate-fade-in"
+              style="animation-delay: 300ms"
+            >
+              <form id="contact-form" class="contact__form">
+                <div class="contact__form-grid">
+                  <div class="contact__form-group">
+                    <label for="name" class="contact__form-label"
+                      >Full Name *</label
+                    >
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Your full name"
+                      class="contact__form-input"
+                      required
+                      aria-required="true"
+                    />
+                  </div>
+                  <div class="contact__form-group">
+                    <label for="email" class="contact__form-label"
+                      >Email Address *</label
+                    >
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="your.email@example.com"
+                      class="contact__form-input"
+                      required
+                      aria-required="true"
+                    />
+                  </div>
+                  <div class="contact__form-group">
+                    <label for="phone" class="contact__form-label"
+                      >Phone Number</label
+                    >
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      placeholder="+1 (555) 123-4567"
+                      class="contact__form-input"
+                    />
+                  </div>
+                  <div class="contact__form-group">
+                    <label for="subject" class="contact__form-label"
+                      >Subject</label
+                    >
+                    <input
+                      type="text"
+                      id="subject"
+                      name="subject"
+                      placeholder="How can we help you?"
+                      class="contact__form-input"
+                    />
+                  </div>
+                </div>
+                <div class="contact__form-group">
+                  <label for="message" class="contact__form-label"
+                    >Message *</label
+                  >
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Tell us about your project or how we can help you..."
+                    rows="5"
+                    class="contact__form-textarea"
+                    required
+                    aria-required="true"
+                  ></textarea>
+                </div>
+                <button type="submit" class="contact__form-submit">
+                  <span class="contact__form-submit-text">Send Message</span>
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" aria-label="Site footer">
+      <div class="footer__container">
+        <div class="footer__grid">
+          <div class="footer__company">
+            <h3 class="footer__logo">NexaSphere</h3>
+            <p class="footer__description">
+              We're passionate about helping businesses succeed in the digital
+              world. Our team of experts delivers innovative solutions that
+              drive real results.
+            </p>
+            <div class="footer__social">
+              <a href="#" class="footer__social-icon" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="footer__social-icon" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="footer__social-icon" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="footer__social-icon" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer__links">
+            <h4 class="footer__links-title">Company</h4>
+            <ul class="footer__links-list">
+              <li>
+                <button class="footer__link" data-scroll-to="#about">
+                  About Us
+                </button>
+              </li>
+              <li>
+                <button class="footer__link" data-scroll-to="#about">
+                  Our Team
+                </button>
+              </li>
+              <li><button class="footer__link">Careers</button></li>
+              <li>
+                <button class="footer__link" data-scroll-to="#contact">
+                  Contact
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__links">
+            <h4 class="footer__links-title">Services</h4>
+            <ul class="footer__links-list">
+              <li>
+                <button class="footer__link" data-scroll-to="#services">
+                  Web Development
+                </button>
+              </li>
+              <li>
+                <button class="footer__link" data-scroll-to="#services">
+                  UI/UX Design
+                </button>
+              </li>
+              <li>
+                <button class="footer__link" data-scroll-to="#services">
+                  Digital Marketing
+                </button>
+              </li>
+              <li>
+                <button class="footer__link" data-scroll-to="#services">
+                  Consulting
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__links">
+            <h4 class="footer__links-title">Resources</h4>
+            <ul class="footer__links-list">
+              <li><button class="footer__link">Blog</button></li>
+              <li><button class="footer__link">Case Studies</button></li>
+              <li><button class="footer__link">Documentation</button></li>
+              <li>
+                <button class="footer__link" data-scroll-to="#contact">
+                  Support
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copyright">
+            &copy; <span id="current-year"></span> NexaSphere. All rights
+            reserved.
+          </p>
+          <div class="footer__credits">Made by Ramandeep Singh</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html> -->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NexaSphere</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <header class="nav" id="nav" role="navigation" aria-label="Main navigation">
+      <div class="nav__container">
+        <div class="nav__inner">
+          <div class="nav__logo" aria-label="NexaSphere logo">
+            <h1>NexaSphere</h1>
+          </div>
+          <nav class="nav__desktop" aria-label="Desktop navigation">
+            <a href="#home" class="nav__item" data-scroll-to="#home">Home</a>
+            <a href="#about" class="nav__item" data-scroll-to="#about">About</a>
+            <a href="#services" class="nav__item" data-scroll-to="#services"
+              >Services</a
+            >
+            <a href="#contact" class="nav__item" data-scroll-to="#contact"
+              >Contact</a
+            >
+          </nav>
+          <a href="#contact" class="nav__button" data-scroll-to="#contact"
+            >Get Started</a>
+          <button
+            class="nav__mobile-toggle"
+            aria-label="Toggle mobile menu"
+            aria-expanded="false"
+            data-toggle="mobile-nav"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <div
+          class="nav__mobile"
+          id="mobile-nav"
+          role="navigation"
+          aria-label="Mobile navigation"
+        >
+          <div class="nav__mobile-items">
+            <a href="#home" class="nav__mobile-item" data-scroll-to="#home"
+              >Home</a
+            >
+            <a href="#about" class="nav__mobile-item" data-scroll-to="#about"
+              >About</a
+            >
+            <a
+              href="#services"
+              class="nav__mobile-item"
+              data-scroll-to="#services"
+              >Services</a
+            >
+            <a
+              href="#contact"
+              class="nav__mobile-item"
+              data-scroll-to="#contact"
+              >Contact</a
+            >
+            <a
+              href="#contact"
+              class="nav__mobile-button"
+              data-scroll-to="#contact"
+              >Get Started</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero__bg"></div>
+        <div class="hero__blob hero__blob--left"></div>
+        <div class="hero__blob hero__blob--right"></div>
+        <div class="hero__container">
+          <div class="hero__grid">
+            <div class="hero__content">
+              <h1 class="hero__title" id="hero-title">
+                Transform Your
+                <span>Business Today</span>
+              </h1>
+              <p class="hero__description">
+                We deliver cutting-edge solutions that drive growth, increase
+                efficiency, and help your business stay ahead of the competition
+                in today's digital landscape.
+              </p>
+              <div class="hero__buttons">
+                <button class="hero__button--primary" data-scroll-to="#contact">
+                  Get Started Now
+                  <i class="fas fa-arrow-right"></i>
+                </button>
+                <button
+                  class="hero__button--secondary"
+                  data-scroll-to="#services"
+                >
+                  <i class="fas fa-play"></i>
+                  Learn More
+                </button>
+              </div>
+            </div>
+            <div class="hero__image-container">
+              <img
+                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop"
+                alt="Professional working on laptop"
+                class="hero__image"
+              />
+              <div class="hero__image-overlay"></div>
+              <div class="hero__floating-card hero__floating-card--top">
+                <div class="hero__floating-card-number">99%</div>
+                <div class="hero__floating-card-label">Success Rate</div>
+              </div>
+              <div class="hero__floating-card hero__floating-card--bottom">
+                <div class="hero__floating-card-number">24/7</div>
+                <div class="hero__floating-card-label">Support</div>
+              </div>
+            </div>
+          </div>
+          <div class="hero__stats">
+            <div class="hero__stat">
+              <div class="hero__stat-number">500+</div>
+              <div class="hero__stat-label">Happy Clients</div>
+            </div>
+            <div class="hero__stat">
+              <div class="hero__stat-number">1000+</div>
+              <div class="hero__stat-label">Projects Completed</div>
+            </div>
+            <div class="hero__stat">
+              <div class="hero__stat-number">50+</div>
+              <div class="hero__stat-label">Team Members</div>
+            </div>
+            <div class="hero__stat">
+              <div class="hero__stat-number">5+</div>
+              <div class="hero__stat-label">Years Experience</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about" aria-labelledby="about-title">
+        <div class="about__container">
+          <div class="about__grid">
+            <div class="about__content">
+              <h2 class="about__title" id="about-title">About Our Company</h2>
+              <p class="about__description">
+                We are a forward-thinking company dedicated to helping
+                businesses thrive in the digital age. Our team of experts
+                combines creativity with technical expertise to deliver
+                solutions that drive real results.
+              </p>
+              <div class="about__features">
+                <div class="about__feature">
+                  <i class="fas fa-check-circle about__feature-icon"></i>
+                  <span>10+ years of industry experience</span>
+                </div>
+                <div class="about__feature">
+                  <i class="fas fa-check-circle about__feature-icon"></i>
+                  <span>Certified professionals and experts</span>
+                </div>
+                <div class="about__feature">
+                  <i class="fas fa-check-circle about__feature-icon"></i>
+                  <span>24/7 dedicated customer support</span>
+                </div>
+                <div class="about__feature">
+                  <i class="fas fa-check-circle about__feature-icon"></i>
+                  <span>Proven track record of success</span>
+                </div>
+              </div>
+              <div class="about__stats">
+                <div class="about__stat about__stat--blue">
+                  <div class="about__stat-number about__stat-number--blue">
+                    500+
+                  </div>
+                  <div class="about__stat-label">Projects Delivered</div>
+                </div>
+                <div class="about__stat about__stat--purple">
+                  <div class="about__stat-number about__stat-number--purple">
+                    98%
+                  </div>
+                  <div class="about__stat-label">Client Satisfaction</div>
+                </div>
+              </div>
+            </div>
+            <div class="about__image-container">
+              <img
+                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop"
+                alt="Team collaboration"
+                class="about__image"
+              />
+              <div class="about__image-overlay"></div>
+            </div>
+          </div>
+          <div class="about__values">
+            <h3 class="about__values-title">Our Core Values</h3>
+            <div class="about__values-grid">
+              <div class="about__value-card">
+                <div class="about__value-icon">
+                  <i class="fas fa-users text-blue-600"></i>
+                </div>
+                <h4 class="about__value-title">Team Collaboration</h4>
+                <p class="about__value-description">
+                  We believe in the power of teamwork and collaboration to
+                  achieve extraordinary results.
+                </p>
+              </div>
+              <div class="about__value-card">
+                <div class="about__value-icon">
+                  <i class="fas fa-bullseye text-purple-600"></i>
+                </div>
+                <h4 class="about__value-title">Goal-Oriented</h4>
+                <p class="about__value-description">
+                  Every project is approached with clear objectives and
+                  measurable outcomes in mind.
+                </p>
+              </div>
+              <div class="about__value-card">
+                <div class="about__value-icon">
+                  <i class="fas fa-award text-green-600"></i>
+                </div>
+                <h4 class="about__value-title">Excellence</h4>
+                <p class="about__value-description">
+                  We strive for excellence in everything we do, delivering
+                  quality that exceeds expectations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="services" aria-labelledby="services-title">
+        <div class="services__container">
+          <div class="services__header">
+            <h2 class="services__title" id="services-title">Our Services</h2>
+            <p class="services__subtitle">
+              We offer comprehensive solutions to help your business succeed in
+              the digital world. From web development to digital marketing,
+              we've got you covered.
+            </p>
+          </div>
+          <div class="services__grid">
+            <div class="service__card service__card--web">
+              <div class="service__icon-container">
+                <i class="fas fa-code service-icon text-blue-600"></i>
+              </div>
+              <h3 class="service__title">Web Development</h3>
+              <p class="service__description">
+                Custom web applications built with modern technologies and best
+                practices for optimal performance.
+              </p>
+              <ul class="service__features">
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>React & TypeScript
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>Responsive Design
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>SEO Optimized
+                </li>
+              </ul>
+              <button class="service__button" data-scroll-to="#contact">
+                Learn More
+              </button>
+            </div>
+            <div class="service__card service__card--uiux">
+              <div class="service__icon-container">
+                <i class="fas fa-palette service-icon text-purple-600"></i>
+              </div>
+              <h3 class="service__title">UI/UX Design</h3>
+              <p class="service__description">
+                Beautiful, intuitive designs that enhance user experience and
+                drive engagement.
+              </p>
+              <ul class="service__features">
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>User Research
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>Wireframing
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>Prototyping
+                </li>
+              </ul>
+              <button class="service__button" data-scroll-to="#contact">
+                Learn More
+              </button>
+            </div>
+            <div class="service__card service__card--marketing">
+              <div class="service__icon-container">
+                <i class="fas fa-chart-bar service-icon text-green-600"></i>
+              </div>
+              <h3 class="service__title">Digital Marketing</h3>
+              <p class="service__description">
+                Data-driven marketing strategies to grow your online presence
+                and reach your target audience.
+              </p>
+              <ul class="service__features">
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>SEO/SEM
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>Social Media
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>Analytics
+                </li>
+              </ul>
+              <button class="service__button" data-scroll-to="#contact">
+                Learn More
+              </button>
+            </div>
+            <div class="service__card service__card--cybersecurity">
+              <div class="service__icon-container">
+                <i class="fas fa-shield-alt service-icon text-red-600"></i>
+              </div>
+              <h3 class="service__title">Cybersecurity</h3>
+              <p class="service__description">
+                Comprehensive security solutions to protect your business from
+                digital threats.
+              </p>
+              <ul class="service__features">
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>Security Audits
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>Threat Detection
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>Compliance
+                </li>
+              </ul>
+              <button class="service__button" data-scroll-to="#contact">
+                Learn More
+              </button>
+            </div>
+            <div class="service__card service__card--mobile">
+              <div class="service__icon-container">
+                <i class="fas fa-mobile-alt service-icon text-indigo-600"></i>
+              </div>
+              <h3 class="service__title">Mobile Apps</h3>
+              <p class="service__description">
+                Native and cross-platform mobile applications for iOS and
+                Android devices.
+              </p>
+              <ul class="service__features">
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>Native Development
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>Cross-Platform
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>App Store
+                  Optimization
+                </li>
+              </ul>
+              <button class="service__button" data-scroll-to="#contact">
+                Learn More
+              </button>
+            </div>
+            <div class="service__card service__card--cloud">
+              <div class="service__icon-container">
+                <i class="fas fa-globe service-icon text-cyan-600"></i>
+              </div>
+              <h3 class="service__title">Cloud Solutions</h3>
+              <p class="service__description">
+                Scalable cloud infrastructure and services to support your
+                business growth.
+              </p>
+              <ul class="service__features">
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>AWS/Azure
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>DevOps
+                </li>
+                <li class="service__feature">
+                  <span class="service__feature-dot"></span>Scalability
+                </li>
+              </ul>
+              <button class="service__button" data-scroll-to="#contact">
+                Learn More
+              </button>
+            </div>
+          </div>
+          <div class="services__cta">
+            <div class="services__cta-card">
+              <h3 class="services__cta-title">Ready to Get Started?</h3>
+              <p class="services__cta-description">
+                Let's discuss how we can help transform your business with our
+                expert services.
+              </p>
+              <button class="services__cta-button" data-scroll-to="#contact">
+                Contact Us Today
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact__container">
+          <div class="contact__header">
+            <h2 class="contact__title" id="contact-title">Get In Touch</h2>
+            <p class="contact__subtitle">
+              Ready to take your business to the next level? Contact us today
+              for a free consultation and let's discuss how we can help you
+              achieve your goals.
+            </p>
+          </div>
+          <div class="contact__grid">
+            <div class="contact__info">
+              <h3 class="contact__info-title">Let's Start a Conversation</h3>
+              <p class="contact__info-description">
+                We're here to help and answer any question you might have. We
+                look forward to hearing from you.
+              </p>
+              <div class="contact__methods">
+                <div class="contact__method">
+                  <div class="contact__icon-container">
+                    <i class="fas fa-envelope contact__icon"></i>
+                  </div>
+                  <div class="contact__method-details">
+                    <h4 class="contact__method-title">Email</h4>
+                    <a
+                      href="mailto:hello@NexaSphere.com"
+                      class="contact__method-link"
+                      >hello@NexaSphere.com</a
+                    >
+                  </div>
+                </div>
+                <div class="contact__method">
+                  <div class="contact__icon-container">
+                    <i class="fas fa-phone contact__icon"></i>
+                  </div>
+                  <div class="contact__method-details">
+                    <h4 class="contact__method-title">Phone</h4>
+                    <a href="tel:+910123456789" class="contact__method-link"
+                      >+91 0123456789</a
+                    >
+                  </div>
+                </div>
+                <div class="contact__method">
+                  <div class="contact__icon-container">
+                    <i class="fas fa-map-marker-alt contact__icon"></i>
+                  </div>
+                  <div class="contact__method-details">
+                    <h4 class="contact__method-title">Address</h4>
+                    <a href="#" class="contact__method-link"
+                      >123 Business St, Suite 100, City, State 12345</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="contact__business-hours">
+                <h4 class="contact__business-hours-title">Business Hours</h4>
+                <div class="contact__business-hours-list">
+                  <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                  <p>Saturday: 10:00 AM - 4:00 PM</p>
+                  <p>Sunday: Closed</p>
+                </div>
+              </div>
+            </div>
+            <div class="contact__form">
+              <form id="contact-form" class="contact__form">
+                <div class="contact__form-grid">
+                  <div class="contact__form-group">
+                    <label for="name" class="contact__form-label"
+                      >Full Name *</label
+                    >
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Your full name"
+                      class="contact__form-input"
+                      required
+                      aria-required="true"
+                    />
+                  </div>
+                  <div class="contact__form-group">
+                    <label for="email" class="contact__form-label"
+                      >Email Address *</label
+                    >
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="your.email@example.com"
+                      class="contact__form-input"
+                      required
+                      aria-required="true"
+                    />
+                  </div>
+                  <div class="contact__form-group">
+                    <label for="phone" class="contact__form-label"
+                      >Phone Number</label
+                    >
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      placeholder="+1 (555) 123-4567"
+                      class="contact__form-input"
+                    />
+                  </div>
+                  <div class="contact__form-group">
+                    <label for="subject" class="contact__form-label"
+                      >Subject</label
+                    >
+                    <input
+                      type="text"
+                      id="subject"
+                      name="subject"
+                      placeholder="How can we help you?"
+                      class="contact__form-input"
+                    />
+                  </div>
+                </div>
+                <div class="contact__form-group">
+                  <label for="message" class="contact__form-label"
+                    >Message *</label
+                  >
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Tell us about your project or how we can help you..."
+                    rows="5"
+                    class="contact__form-textarea"
+                    required
+                    aria-required="true"
+                  ></textarea>
+                </div>
+                <button type="submit" class="contact__form-submit">
+                  <span class="contact__form-submit-text">Send Message</span>
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" aria-label="Site footer">
+      <div class="footer__container">
+        <div class="footer__grid">
+          <div class="footer__company">
+            <h3 class="footer__logo">NexaSphere</h3>
+            <p class="footer__description">
+              We're passionate about helping businesses succeed in the digital
+              world. Our team of experts delivers innovative solutions that
+              drive real results.
+            </p>
+            <div class="footer__social">
+              <a href="#" class="footer__social-icon" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="footer__social-icon" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="footer__social-icon" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="footer__social-icon" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer__links">
+            <h4 class="footer__links-title">Company</h4>
+            <ul class="footer__links-list">
+              <li>
+                <button class="footer__link" data-scroll-to="#about">
+                  About Us
+                </button>
+              </li>
+              <li>
+                <button class="footer__link" data-scroll-to="#about">
+                  Our Team
+                </button>
+              </li>
+              <li><button class="footer__link">Careers</button></li>
+              <li>
+                <button class="footer__link" data-scroll-to="#contact">
+                  Contact
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__links">
+            <h4 class="footer__links-title">Services</h4>
+            <ul class="footer__links-list">
+              <li>
+                <button class="footer__link" data-scroll-to="#services">
+                  Web Development
+                </button>
+              </li>
+              <li>
+                <button class="footer__link" data-scroll-to="#services">
+                  UI/UX Design
+                </button>
+              </li>
+              <li>
+                <button class="footer__link" data-scroll-to="#services">
+                  Digital Marketing
+                </button>
+              </li>
+              <li>
+                <button class="footer__link" data-scroll-to="#services">
+                  Consulting
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__links">
+            <h4 class="footer__links-title">Resources</h4>
+            <ul class="footer__links-list">
+              <li><button class="footer__link">Blog</button></li>
+              <li><button class="footer__link">Case Studies</button></li>
+              <li><button class="footer__link">Documentation</button></li>
+              <li>
+                <button class="footer__link" data-scroll-to="#contact">
+                  Support
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copyright">
+            © <span id="current-year"></span> NexaSphere. All rights
+            reserved.
+          </p>
+          <div class="footer__credits">Made by Ramandeep Singh</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
